@@ -1,0 +1,46 @@
+# python print()
+from traceback import print_tb
+
+pets = 12
+_pets =23
+number_of_pets = 12
+kind_of_parents = "jolly"
+kind_of_step_parents = "sus"
+number_of_PETS = 23
+print(pets)
+print(_pets)
+print(number_of_pets)
+print(number_of_PETS)
+print(kind_of_parents)
+print(number_of_pets+number_of_PETS)
+if(number_of_PETS>number_of_pets):
+    print(True)
+else:print(False)
+print(kind_of_parents+kind_of_step_parents)
+#Here is string.format() method example code
+print("{} is a a type of print to test format methods {}.".format(kind_of_parents,kind_of_step_parents))
+def vikash():
+    viii = 100
+    vishnu = 200
+    if viii > vishnu :
+        print(viii)
+    else:
+        print(vishnu)
+
+
+
+
+vikash()
+
+print(id(vikash()))
+
+''' this function prints name class rollno from an argument provided in function'''
+def this_argument(name , calss, rollno):
+    print("{} studies in {} and his rollno is {}".format(name,calss,rollno))
+
+#this below line shows, How keyword argument is called .
+this_argument("vishnu",12,12)
+
+
+
+
